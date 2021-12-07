@@ -4,10 +4,10 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: argocd-t1
+  project: default
 
   source:
-    repoURL: https://github.com/jcal-git/argocd.git
+    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
     targetRevision: HEAD
     path: dev
   destination: 
