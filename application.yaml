@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: default
+  project: argocd1
 
   source:
     repoURL: https://github.com/jcal-git/argocd.git
